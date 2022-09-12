@@ -66,12 +66,6 @@ const inhabitants = [
    print('human; <strong>John</strong>; male; 2; 2; <em>Hello world!</em>; Rex, Tom, Jenny', 'div');
    */
 
-//   inhabitants.dog.species + '; ' 
-//    + inhabitants.dog.name + '; ' 
-//    + inhabitants.dog.gender + '; ' 
-//    + inhabitants.dog.legs + '; ' 
-//    + inhabitants.dog.hands + '; ' 
-//    + inhabitants.dog.saying
 
 for (let i = 0; i < inhabitants.length; i++) {
    const species = inhabitants[i].species;
