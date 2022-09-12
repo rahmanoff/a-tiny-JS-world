@@ -76,5 +76,5 @@ for (let i = 0; i < inhabitants.length; i++) {
    const saying = inhabitants[i].saying;
    const friends = inhabitants[i].friends;
 
-   print('Inhabitant:' + species + '; Name:' + name + '; Gender:' + gender + '; Legs:' + legs + '; Hands:' + hands + '; Saying:' + saying + '; Friends:' + friends);
+   print('Inhabitant:' + species + '; name:' + name + '; gender:' + gender + '; legs:' + legs + '; hands:' + hands + '; saying:' + saying + '; friends:' + friends);
 }
