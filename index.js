@@ -8,6 +8,14 @@ import { print } from './js/lib.js';
 
 // ======== OBJECTS DEFINITIONS ========
 // Define your objects here
+const dog = {
+   species: 'dog',
+   name: 'Toby',
+   gender: 'male',
+   legs: 4,
+   hands: 0,
+   saying: 'woof-woof'
+};
 
 
 // ======== OUTPUT ========
