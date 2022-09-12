@@ -18,6 +18,7 @@ const dog = {
 };
 
 
+
 // ======== OUTPUT ========
 /* Use print(message) for output.
    Default tag for message is <pre>. Use print(message,'div') to change containing element tag.
@@ -36,3 +37,4 @@ const dog = {
    print('human; <strong>John</strong>; male; 2; 2; <em>Hello world!</em>; Rex, Tom, Jenny');
    print('human; <strong>John</strong>; male; 2; 2; <em>Hello world!</em>; Rex, Tom, Jenny', 'div');
    */
+  print(dog.species + '; ' + dog.name + '; ' + dog.gender + '; ' + dog.legs + '; ' + dog.hands + '; ' + dog.saying);
