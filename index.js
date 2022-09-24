@@ -70,5 +70,4 @@ const props = ['Inhabitant', 'name', 'gender', 'legs', 'hands', 'saying', 'frien
 
 inhabitants.forEach((item) => {
    print(props.map((key) => item[key]).join('; '));
-   // print('Inhabitant:' + item.species + '; name:' + item.name + '; gender:' + item.gender + '; legs:' + item.legs + '; hands:' + item.hands + '; saying:' + item.saying + '; friends:' + item.friends);
 });
